@@ -1,0 +1,126 @@
+*{
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  overflow-y: hidden;
+}
+
+body{
+  background-color: #58207A;
+}
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+  }
+
+
+.manchaAmarela{
+  width: 420px;
+  height: 225px;
+  margin-top: -20px;
+  margin-left: -25px;
+
+}
+
+.logoLemia{
+  margin-top: -200px;
+  position: absolute;
+  z-index: 1;
+}
+
+
+
+.login-form {
+  position: absolute;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-form {
+  margin-bottom: 15px;
+}
+
+.txt-campo{
+  font-size: 26px;
+  color: #E69A2B ;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.input-name{
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 310px;
+  height: 55px;
+  font-size: 26px;
+  color: #2E7037;
+  background-color: #F6F6F6;
+  border-radius: 12px;
+}
+
+.input-pass{
+  padding-left: 20px;
+  box-sizing: border-box;
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 220px;
+  height: 55px;
+  font-size: 26px;
+  color: #2E7037;
+  background-color: #F6F6F6;
+  border-radius: 12px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+}
+
+.show-password-btn {
+  margin-left: 10px;
+  font-size: 20px;
+  width: 90px;
+  height: 55px;
+  border: none;
+  background-color: #2E7037;
+  color: #F6F6F6;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.btn-login {
+  letter-spacing: 2px;
+  font-weight: 560;
+  font-size: 25px;
+  width: 370px;
+  height: 60px;
+  border: none;
+  background-color: #2E7037;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+.link-cad,.link-remember{
+  font-size: 20px;
+  color: #E69A2B ;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cabeca-Lumia{
+  width: 600px;
+  margin-top: 270px;
+  margin-left: -110px;
+}

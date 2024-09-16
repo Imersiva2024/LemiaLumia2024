@@ -1,0 +1,125 @@
+*{
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+
+}
+  
+  body{
+    background-color: #58207A;
+  }
+  .register-container {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+    }
+  
+  
+  .manchaAmarela{
+    width: 420px;
+    height: 225px;
+    margin-top: -20px;
+    margin-left: -25px;
+  
+  }
+  
+  .logoLemia{
+    margin-top: -200px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .form-container {
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .txt-campo{
+    font-size: 26px;
+    color: #E69A2B ;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-left: 3px;
+  }
+
+  .input-user{
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 310px;
+    height: 55px;
+    font-size: 26px;
+    color: #2E7037;
+    background-color: #F6F6F6;
+    border-radius: 12px;
+    margin-top: -9px;
+
+  }
+
+  .input-email{
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 360px;
+    height: 55px;
+    font-size: 26px;
+    color: #2E7037;
+    background-color: #F6F6F6;
+    border-radius: 12px;
+    margin-top: -9px;
+
+  }
+  
+  
+  .input-passw{
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 220px;
+    height: 55px;
+    font-size: 26px;
+    color: #2E7037;
+    background-color: #F6F6F6;
+    border-radius: 12px;
+    margin-top: -15px;
+  }
+  
+.container-requisitos{
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: #E69A2B;
+    border-radius: 12px;
+    width: 325px;
+    font-size: 22px;
+    padding: 15px;
+}
+.txt-requisitos{
+    font-weight: 560;
+    font-size:24px ;
+    color: #275c2e;
+}
+
+  .btn-cad {
+    letter-spacing: 2px;
+    font-weight: 560;
+    font-size: 25px;
+    width: 370px;
+    height: 60px;
+    border: none;
+    background-color: #2E7037;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 10px;
+  }
+  
+  .valid {
+    color: green;
+  }
+  
+  .invalid {
+    color: red;
+  }
+  

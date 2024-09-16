@@ -1,0 +1,29 @@
+.chat-container {
+    padding: 10px;
+  }
+  
+  .new-message {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .new-message input {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .new-message button {
+    padding: 8px;
+    margin-left: 5px;
+  }
+  
+  .messages-list {
+    border-top: 1px solid #ddd;
+  }
+  
+  .message-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
